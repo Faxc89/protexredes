@@ -1,0 +1,107 @@
+@import "../utilities/variables";
+
+/* ESTILOS GENERALES */
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* HEADER BOOSTRAP: nav-bar */
+.dispo{
+    display: none;
+}
+
+.dispo-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: 
+    #018d63e6;
+    margin: 0;
+    }
+    .dispo-mobile li{
+        list-style: none;
+        color: whitesmoke;
+        font-weight:500;
+    }
+    .dispo-mobile .esq{
+        margin: 0 1rem 0 0 ;
+    }
+.titulo{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.titulo:hover{
+    color: white;
+}
+.t-span{
+    color: #03bb85;
+}
+.navbar-light .navbar-brand {
+    color: #3d444b;
+}
+
+.titulo{
+    font-size: 1.8rem;
+}
+#e-navbar {
+    background-color: white;
+}
+#nav-list{
+    margin-top: 1rem;
+}
+#nav-item{
+    a{
+        padding-left: 1.3rem;
+        font-size: 1.15rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        list-style: none;
+        text-decoration: none;
+        color: #3d444b;
+        text-shadow: $text-shadow;
+    }   
+    #wpp-boton{
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 1rem;
+        height: 2.3rem;
+        width: 2.3rem;        
+    }
+} 
+/*----- FIN HEADER -----*/
+
+/* FOOTER */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $color-bg;
+    color: black ;
+    padding: 1.25rem;
+    border-top:#dcdcdc  solid 0.063rem;
+    width: 100%;
+
+    h4, h2{
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: $color-footer;
+    }    
+    span{
+        color: #1AAE9F;
+    }
+    .btn-footer{
+        text-decoration: none;
+    }
+}
+/*----- FIN FOOTER -----*/
+
+/* SPAN DE SALTO */
+.span-br{
+    display: block;
+}
+/*----- FIN SPAN DE SALTO -----*/
+
+/*----- FIN DE ESTILOS GENERALES -----*/

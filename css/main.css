@@ -1,0 +1,808 @@
+@charset "UTF-8";
+/* ESTILOS GENERALES */
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* HEADER BOOSTRAP: nav-bar */
+.dispo {
+  display: none; }
+
+.dispo-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: #018d63e6;
+  margin: 0; }
+
+.dispo-mobile li {
+  list-style: none;
+  color: whitesmoke;
+  font-weight: 500; }
+
+.dispo-mobile .esq {
+  margin: 0 1rem 0 0; }
+
+.titulo {
+  font-size: 1.4rem;
+  font-weight: bolder; }
+
+.titulo:hover {
+  color: white; }
+
+.t-span {
+  color: #03bb85; }
+
+.navbar-light .navbar-brand {
+  color: #3d444b; }
+
+.titulo {
+  font-size: 1.8rem; }
+
+#e-navbar {
+  background-color: white; }
+
+#nav-list {
+  margin-top: 1rem; }
+
+#nav-item a {
+  padding-left: 1.3rem;
+  font-size: 1.15rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  color: #3d444b;
+  text-shadow: 0px 0px 2px #969696; }
+
+#nav-item #wpp-boton {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 1rem;
+  height: 2.3rem;
+  width: 2.3rem; }
+
+/*----- FIN HEADER -----*/
+/* FOOTER */
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: black;
+  padding: 1.25rem;
+  border-top: #dcdcdc  solid 0.063rem;
+  width: 100%; }
+  footer h4, footer h2 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #535353; }
+  footer span {
+    color: #1AAE9F; }
+  footer .btn-footer {
+    text-decoration: none; }
+
+/*----- FIN FOOTER -----*/
+/* SPAN DE SALTO */
+.span-br {
+  display: block; }
+
+/*----- FIN SPAN DE SALTO -----*/
+/*----- FIN DE ESTILOS GENERALES -----*/
+/*-----INDEX-----*/
+/* GRID-INDEX MAIN */
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+  text-align: center;
+  height: 80vh;
+  grid-template-areas: "ppal" "logo";
+  justify-content: center;
+  justify-items: center;
+  height: 80vh;
+  position: relative;
+  row-gap: 0.5rem;
+  background-color: #ffffff; }
+
+/* principal + infoIndex */
+.principal {
+  grid-area: ppal;
+  padding: 1rem 0rem 1.25rem;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 43rem;
+  background-image: url("../img/bg/bgIndex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.infoIndex h1 {
+  padding-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 550;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px #969696; }
+
+.infoIndex p {
+  padding: 1.5rem 1.5rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #ffffff; }
+
+/* Invitación y botón de contacto */
+.invitacion {
+  padding-bottom: 2rem; }
+  .invitacion h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 550;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #969696;
+    padding: 2rem; }
+  .invitacion p {
+    margin: 1rem; }
+
+.btn-contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #1a4c5a, #3ca354);
+  color: #ffffff;
+  padding: 0.8rem 3.2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  text-shadow: 0px 0px 2px #969696; }
+  .btn-contacto:hover {
+    color: #dcdcdc; }
+
+/* galeria de trabajos  */
+.trabajosGaleria {
+  display: none; }
+
+/* logos de clientes */
+.logoCli {
+  grid-area: logo;
+  width: 100%;
+  background-color: #ffffff; }
+  .logoCli h3 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #5D6D7E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: #dcdcdc  solid 0.063rem;
+    text-shadow: 0px 0px 2px #969696; }
+  .logoCli ul {
+    width: 100%;
+    list-style: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .logoCli ul li {
+      margin: 0.31; }
+      .logoCli ul li img {
+        width: 11rem;
+        height: 3rem;
+        margin-top: 0.5rem; }
+
+/*-----FIN GRID-MAIN-INDEX-----*/
+/*-----SERVICIOS-----*/
+/*GRID-MAIN-SERVICIOS*/
+.grid-main-servicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+  text-align: center;
+  grid-template-areas: "sppal" "tipos" "080" "060" "230"; }
+
+/* s-principal + info servicios */
+.s-principal {
+  grid-area: sppal;
+  padding-top: 2rem;
+  width: 100%;
+  height: 32rem;
+  background-image: url("../img/bg/red-services.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+  .s-principal h1 {
+    padding-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #969696; }
+  .s-principal p {
+    padding: 1.5rem 1.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #ffffff; }
+
+/* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
+.tipoRedes {
+  grid-area: tipos;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: #ffffff;
+  background-color: #f5f5f5; }
+  .tipoRedes h2 {
+    font-size: 1.4rem;
+    font-weight: 550;
+    padding: 0.8rem;
+    background-color: #f5f5f5;
+    color: #5D6D7E; }
+  .tipoRedes .rt080 {
+    grid-area: 080; }
+  .tipoRedes .rt060 {
+    grid-area: 060; }
+  .tipoRedes .rt230 {
+    grid-area: 230; }
+
+/* estilos en comun */
+.rt080 h3, .rt060 h3, .rt230 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 550;
+  padding: 0.5rem;
+  background-color: #02a876;
+  color: #ffffff; }
+
+.rt080 p, .rt060 p, .rt230 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  color: #5D6D7E;
+  line-height: 1.6rem; }
+
+.rt080 ul, .rt060 ul, .rt230 ul {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .rt080 ul li, .rt060 ul li, .rt230 ul li {
+    padding: 0.5rem; }
+    .rt080 ul li img, .rt060 ul li img, .rt230 ul li img {
+      width: 22rem;
+      height: 16.75rem; }
+
+/*-----FIN SERVICIOS-----*/
+/*-----TRABAJOS-----*/
+/*    GRID-MAIN-TRABAJOS     */
+.grid-main-trabajos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+  text-align: center;
+  grid-template-areas: "tppal" "super" "balcon" "ventana" "escalera"; }
+
+/* t-principal + info trabajos */
+.t-principal {
+  grid-area: tppal;
+  padding-top: 2rem;
+  width: 100%;
+  height: 34rem;
+  background-image: url("../img/bg/redes-trabajos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+  .t-principal h1 {
+    padding-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #969696; }
+  .t-principal p {
+    padding: 1.5rem 1.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #ffffff; }
+
+/* superficies + balcon - 3 img + ventana - 3 img + escalera - 3 img */
+.superficies {
+  grid-area: super;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: #ffffff;
+  background-color: #f5f5f5; }
+  .superficies h2 {
+    font-size: 1.4rem;
+    font-weight: 550;
+    padding: 0.8rem;
+    background-color: #f5f5f5;
+    color: #5D6D7E; }
+
+.balcon {
+  grid-area: balcon; }
+
+.ventana {
+  grid-area: ventana; }
+
+.escalera {
+  grid-area: escalera; }
+
+/* estilos en comun */
+.balcon h3, .ventana h3, .escalera h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 550;
+  padding: 0.5rem;
+  background-color: #02a876;
+  color: #ffffff; }
+
+.balcon p, .ventana p, .escalera p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  color: #5D6D7E;
+  line-height: 1.6rem; }
+
+.balcon ul, .ventana ul, .escalera ul {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .balcon ul li, .ventana ul li, .escalera ul li {
+    padding: 0.5rem; }
+    .balcon ul li img, .ventana ul li img, .escalera ul li img {
+      width: 22rem;
+      height: 16.75rem; }
+
+/*-----FIN TRABAJOS-----*/
+/*-----PRESUPUESTO-----*/
+/* Formulario */
+.formu {
+  padding: 2rem 6rem 0rem 6rem;
+  height: 42rem;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #134E5E, #71B280);
+  color: #ffffff; }
+  .formu h1 {
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #ffffff;
+    line-height: 2.1rem;
+    text-align: center; }
+  .formu .btn-enviar {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #02a876;
+    text-shadow: 0px 0px 2px #969696; }
+
+form {
+  font-size: 1.3rem; }
+
+/*-----FIN PRESUPUESTO-----*/
+/* MEDIA QUERIE TABLET */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* HEADER GENERAL: logo + nav-bar */
+  #logo {
+    display: block; }
+  #logo-desktop {
+    display: none; }
+  /*-----FIN HEADER-----*/
+  /* INDEX */
+  .principal {
+    height: 33rem; }
+  .grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas: "ppal ppal" "trabG trabG" "logo logo";
+    height: 80vh; }
+  .infoIndex h1 {
+    font-size: 2.15rem;
+    text-shadow: 0px 0px 2px #969696; }
+  .infoIndex p {
+    font-size: 1.4rem;
+    line-height: 2rem; }
+    .infoIndex p span {
+      display: contents; }
+  /* invitación y botón de PRESUPUESTO */
+  .invitacion {
+    padding-bottom: 2rem; }
+    .invitacion h2 {
+      font-size: 1.725rem;
+      text-shadow: 0px 0px 2px #969696;
+      padding: 2rem; }
+    .invitacion p {
+      font-size: 1.4rem;
+      margin: 1rem;
+      text-shadow: 0px 0px 2px #969696; }
+  .btn-contacto {
+    font-size: 1.725rem;
+    padding: 1rem 3rem 1rem 3rem; }
+    .btn-contacto:hover {
+      color: #dcdcdc; }
+  /* galeria de trabajos - index*/
+  .trabajosGaleria {
+    grid-area: trabG;
+    display: block; }
+    .trabajosGaleria h3 {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      color: #5D6D7E;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-shadow: 0px 0px 2px #969696; }
+    .trabajosGaleria ul {
+      width: 100%;
+      margin: auto;
+      list-style: none;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .trabajosGaleria ul li {
+        margin: 0.3rem; }
+        .trabajosGaleria ul li img {
+          width: 16rem;
+          height: 14rem; }
+  /* logos de clientes */
+  .logoCli h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #969696;
+    border-top: #dcdcdc  solid 0.063rem; }
+  .logoCli ul li img {
+    width: 12rem;
+    height: 4rem;
+    margin-top: 0.5rem; }
+  /*-----FIN GRID-MAIN-INDEX----- */
+  /* SERVICIOS */
+  .grid-main-servicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr;
+    text-align: center;
+    grid-template-areas: "sppal sppal sppal" "tipos tipos tipos" "080 080 080" "060 060 060" "230 230 230"; }
+  /* s-principal + info servicios */
+  .s-principal {
+    padding: 1rem 2rem 1.25rem 2rem;
+    height: 26rem; }
+    .s-principal h1 {
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
+      font-size: 2.15rem;
+      font-weight: 550;
+      line-height: 2.1rem; }
+    .s-principal p {
+      font-size: 1.4rem;
+      padding: 1rem 1rem 1rem 1rem;
+      line-height: 2.5rem; }
+  /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
+  .tipoRedes h2 {
+    padding: 1.1rem;
+    font-size: 1.5rem;
+    font-weight: 550; }
+  /* estilos en comun */
+  .rt080 h3, .rt060 h3, .rt230 h3 {
+    padding: 1rem;
+    font-size: 1.3rem; }
+  .rt080 p, .rt060 p, .rt230 p {
+    font-size: 1.4rem; }
+  .rt080 ul li img, .rt060 ul li img, .rt230 ul li img {
+    width: 17rem;
+    height: 12rem; }
+  /*-----FIN GRID-MAIN-SERVICIOS-----*/
+  /* TRABAJOS */
+  .grid-main-trabajos {
+    grid-template-areas: "tppal tppal tppal" "super super super" "balcon balcon balcon" "ventana ventana ventana" "escalera escalera escalera"; }
+  /* t-principal + info trabajos */
+  .t-principal {
+    padding: 1rem 2rem 1.25rem 2rem;
+    height: 26rem; }
+    .t-principal h1 {
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
+      font-size: 2.15rem;
+      font-weight: 550;
+      line-height: 2.1rem; }
+    .t-principal p {
+      font-size: 1.4rem;
+      padding: 1rem 1rem 1rem 1rem;
+      line-height: 2.5rem; }
+  /* superficies + 3 img c/superficies */
+  .superficies h2 {
+    padding: 1.1rem;
+    font-size: 1.5rem; }
+  /* estilos en comun */
+  .balcon h3, .ventana h3, .escalera h3 {
+    padding: 1rem;
+    font-size: 1.3rem; }
+  .balcon p, .ventana p, .escalera p {
+    font-size: 1.4rem; }
+  .balcon ul li img, .ventana ul li img, .escalera ul li img {
+    width: 17rem;
+    height: 12rem; }
+  /*-----FIN GRID-MAIN-TRABAJOS-----*/
+  /*  GRID-MAIN-NOSOTROS */
+  .grid-main-nosotros {
+    grid-template-columns: 1 1fr;
+    grid-template-rows: 2 1fr; }
+  .n-principal {
+    padding-top: 3rem;
+    padding-bottom: 1.25rem;
+    height: 38rem; }
+    .n-principal h1 {
+      font-size: 2.15rem;
+      line-height: 2.1rem; }
+    .n-principal p {
+      font-size: 1.4rem;
+      padding: 1rem 1rem 1rem 1rem; }
+    .n-principal .team img {
+      display: inline-block;
+      text-align: center;
+      height: 13rem;
+      width: 18rem; }
+  /*-----FIN MAIN-GRID-NOSOTROS */
+  /*     PRESUPUESTO     */
+  /* Formulario */
+  .formu h1 {
+    font-size: 2.15rem; }
+  form {
+    font-size: 1.4rem; }
+  /*----FIN PRESUPUESTO-----*/
+  /* FOOTER GENERAL */
+  footer h2, footer h4 {
+    font-size: 1rem;
+    color: #535353; }
+  /*----FIN FOOTER-----*/ }
+
+/* MEDIA QUERIE WEB */
+@media only screen and (min-width: 1024px) {
+  /* HEADER GENERAL: logo + nav-bar */
+  header {
+    position: sticky;
+    width: 100%;
+    top: 0; }
+  .dispo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    background-color: #02a876;
+    margin: 0; }
+  .dispo li {
+    list-style: none;
+    color: whitesmoke;
+    font-weight: 500; }
+  .dispo .esq {
+    margin: 0 1rem 0 0; }
+  .dispo-mobile {
+    display: none; }
+  .titulo {
+    font-size: 2rem;
+    text-shadow: 0px 0px 2px #00000087; }
+  .t-prop {
+    text-shadow: 0px 0px 2px #03bb85; }
+  .titulo:hover {
+    transform: translate(4rem, 0);
+    transition-duration: 2s; }
+  #e-navbar {
+    background-color: #f5f5f5; }
+  #nav-list {
+    margin-top: 0; }
+  #nav-item a {
+    display: inline-block;
+    padding-right: 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem; }
+    #nav-item a:hover {
+      transform: scale(1.05);
+      transition-duration: 1s; }
+  #nav-item #wpp-boton {
+    display: inline-block;
+    margin-top: 0.1rem;
+    height: 2.5rem;
+    width: 2.5rem; }
+  /*-----FIN HEADER-----*/
+  /* INDEX */
+  .principal {
+    height: 39rem; }
+  .grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas: "ppal ppal" "trabG trabG" "logo logo";
+    height: 80vh; }
+  .infoIndex {
+    padding: 2rem 2rem 1.25rem 2rem; }
+    .infoIndex h1 {
+      font-size: 2.3rem;
+      text-shadow: 0px 0px 2px #969696; }
+    .infoIndex p {
+      font-size: 1.5rem;
+      line-height: 2.5rem; }
+      .infoIndex p span {
+        display: content; }
+  /* invitación y botón de PRESUPUESTO */
+  .invitacion {
+    padding-bottom: 2rem; }
+    .invitacion h2 {
+      font-size: 1.85rem;
+      text-shadow: 0px 0px 2px #969696;
+      padding: 2rem; }
+    .invitacion p {
+      font-size: 1.5rem;
+      margin: 1rem;
+      text-shadow: 0px 0px 2px #969696; }
+  .btn-contacto {
+    font-size: 1.85rem;
+    padding: 1.1rem 4rem 1.1rem 4rem; }
+    .btn-contacto:hover {
+      color: #bfd2cd; }
+  /* galeria de trabajos - index*/
+  .trabajosGaleria {
+    grid-area: trabG;
+    display: block; }
+    .trabajosGaleria h3 {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      color: #5D6D7E;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-shadow: 0px 0px 2px #969696; }
+    .trabajosGaleria ul {
+      width: 100%;
+      margin: auto;
+      list-style: none;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .trabajosGaleria ul li {
+        margin: 5px; }
+        .trabajosGaleria ul li img {
+          width: 25rem;
+          height: 18.75rem; }
+          .trabajosGaleria ul li img:hover {
+            border: solid 3px #dcdcdc; }
+  /* logos de clientes */
+  .logoCli h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px #969696;
+    border-top: #dcdcdc  solid 0.063rem; }
+  .logoCli ul li img {
+    width: 13rem;
+    height: 5rem;
+    margin-top: 0.5rem; }
+  /*-----FIN GRID-MAIN-INDEX----- */
+  /* SERVICIOS */
+  .grid-main-servicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr;
+    text-align: center;
+    grid-template-areas: "sppal sppal sppal" "tipos tipos tipos" "080 080 080" "060 060 060" "230 230 230"; }
+  /* s-principal + info servicios */
+  .s-principal {
+    padding: 3rem 2rem 1.25rem 2rem;
+    height: 28rem; }
+    .s-principal h1 {
+      padding-bottom: 1.5rem;
+      font-size: 2.3rem;
+      font-weight: 550;
+      line-height: 2.1rem; }
+    .s-principal p {
+      font-size: 1.5rem;
+      padding: 1rem 1rem 1rem 1rem;
+      line-height: 2.5rem; }
+  /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
+  .tipoRedes h2 {
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: 550; }
+  /* estilos en comun */
+  .rt080 h3, .rt060 h3, .rt230 h3 {
+    padding: 1rem;
+    font-size: 1.4rem; }
+  .rt080 p, .rt060 p, .rt230 p {
+    font-size: 1.5rem; }
+  .rt080 ul li img, .rt060 ul li img, .rt230 ul li img {
+    width: 25rem;
+    height: 18.75rem; }
+    .rt080 ul li img:hover, .rt060 ul li img:hover, .rt230 ul li img:hover {
+      border: solid 3px #dcdcdc; }
+  /*-----FIN GRID-MAIN-SERVICIOS-----*/
+  /* TRABAJOS */
+  .grid-main-trabajos {
+    grid-template-areas: "tppal tppal tppal" "super super super" "balcon balcon balcon" "ventana ventana ventana" "escalera escalera escalera"; }
+  /* t-principal + info trabajos */
+  .t-principal {
+    padding: 3rem 2rem 1.25rem 2rem;
+    padding-bottom: 1.25rem;
+    height: 28rem; }
+    .t-principal h1 {
+      font-size: 2.3rem;
+      text-shadow: 0px 0px 2px #969696; }
+    .t-principal p {
+      font-size: 1.5rem;
+      line-height: 2.5rem; }
+      .t-principal p span {
+        display: block; }
+  /* superficies + 3 img c/superficies */
+  .superficies h2 {
+    padding: 1.3rem;
+    font-size: 1.6rem; }
+  /* estilos en comun */
+  .balcon h3, .ventana h3, .escalera h3 {
+    padding: 1.2rem;
+    font-size: 1.4rem; }
+  .balcon p, .ventana p, .escalera p {
+    font-size: 1.5rem; }
+  .balcon ul li img, .ventana ul li img, .escalera ul li img {
+    width: 25rem;
+    height: 18.75rem; }
+    .balcon ul li img:hover, .ventana ul li img:hover, .escalera ul li img:hover {
+      border: solid 3px #dcdcdc; }
+  /*-----FIN GRID-MAIN-TRABAJOS-----*/
+  /*  GRID-MAIN-NOSOTROS */
+  .grid-main-nosotros {
+    grid-template-columns: 1 1fr;
+    grid-template-rows: 2 1fr; }
+  .n-principal {
+    padding-top: 3rem;
+    padding-bottom: 1.25rem;
+    height: 38rem; }
+    .n-principal h1 {
+      font-size: 2.3rem;
+      line-height: 2.1rem; }
+    .n-principal p {
+      font-size: 1.5rem;
+      padding: 1rem; }
+    .n-principal .team img {
+      display: inline-block;
+      text-align: center;
+      height: 17rem;
+      width: 22rem; }
+  /*-----FIN MAIN-GRID-NOSOTROS */
+  /*     PRESUPUESTO     */
+  /* Formulario */
+  .formu h1 {
+    font-size: 2.3rem; }
+  form {
+    font-size: 1.5rem; }
+  /*----FIN PRESUPUESTO-----*/
+  /* FOOTER GENERAL */
+  footer h2, footer h4 {
+    font-size: 1.1rem;
+    color: #535353; }
+  /*----FIN FOOTER-----*/ }
