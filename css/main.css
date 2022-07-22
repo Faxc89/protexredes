@@ -403,6 +403,21 @@ form {
   font-size: 1.3rem; }
 
 /*-----FIN PRESUPUESTO-----*/
+.mainSoli {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 69vh;
+  background-color: #dcd6d6; }
+
+.titleSoli {
+  text-transform: uppercase;
+  font-size: 2.5rem; }
+
+.parrafoSoli {
+  font-size: 2rem; }
+
 /* MEDIA QUERIE TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* HEADER GENERAL: logo + nav-bar */
@@ -632,7 +647,7 @@ form {
   /*-----FIN HEADER-----*/
   /* INDEX */
   .principal {
-    height: 39rem; }
+    height: 32rem; }
   .grid-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
