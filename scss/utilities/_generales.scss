@@ -27,8 +27,17 @@
         color: whitesmoke;
         font-weight:500;
     }
+
     .dispo-mobile .esq{
         margin: 0 1rem 0 0 ;
+    }
+
+    .linkStyle{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: white;
+        }
     }
 .titulo{
     font-size: 1.4rem;

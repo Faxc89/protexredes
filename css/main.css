@@ -26,6 +26,12 @@
 .dispo-mobile .esq {
   margin: 0 1rem 0 0; }
 
+.linkStyle {
+  text-decoration: none;
+  color: white; }
+  .linkStyle:hover {
+    color: white; }
+
 .titulo {
   font-size: 1.4rem;
   font-weight: bolder; }
@@ -385,14 +391,6 @@ footer {
   background-color: transparent;
   background-image: linear-gradient(to right, #134E5E, #71B280);
   color: #ffffff; }
-  .formu h1 {
-    padding-bottom: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    font-weight: 550;
-    color: #ffffff;
-    line-height: 2.1rem;
-    text-align: center; }
   .formu .btn-enviar {
     font-size: 1.1rem;
     font-weight: bold;
@@ -406,25 +404,24 @@ form {
 .mainSoli {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  height: 69vh;
+  text-align: center;
+  height: 80vh;
   background-color: #dcd6d6; }
 
 .titleSoli {
   text-transform: uppercase;
-  font-size: 2.5rem; }
+  font-size: 1.8rem; }
 
 .parrafoSoli {
-  font-size: 2rem; }
+  font-size: 1.2rem; }
 
 /* MEDIA QUERIE TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* HEADER GENERAL: logo + nav-bar */
   #logo {
     display: block; }
-  #logo-desktop {
-    display: none; }
   /*-----FIN HEADER-----*/
   /* INDEX */
   .principal {
@@ -816,6 +813,20 @@ form {
   form {
     font-size: 1.5rem; }
   /*----FIN PRESUPUESTO-----*/
+  /*----SOLICITUD DE PRESUPUESTO*/
+  .mainSoli {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    background-color: #dcd6d6; }
+  .titleSoli {
+    text-transform: uppercase;
+    font-size: 2.5rem; }
+  .parrafoSoli {
+    font-size: 2rem; }
+  /*---- FIN SOLICITUD*/
   /* FOOTER GENERAL */
   footer h2, footer h4 {
     font-size: 1.1rem;

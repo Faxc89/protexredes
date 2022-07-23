@@ -1,19 +1,20 @@
 .mainSoli{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 69vh;
+    text-align: center;
+    height: 80vh;
     background-color: rgb(220, 214, 214);
 }
 
 .titleSoli{
 text-transform: uppercase;
-font-size: 2.5rem;
+font-size: 1.8rem;
 }
 
 .parrafoSoli{
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 

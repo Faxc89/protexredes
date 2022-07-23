@@ -9,10 +9,6 @@
     #logo {
         display: block;
     }
-
-    #logo-desktop{
-        display: none;
-    }
     /*-----FIN HEADER-----*/
 
     /* INDEX */
@@ -585,6 +581,25 @@
         font-size:$d-parrafo;
     }
     /*----FIN PRESUPUESTO-----*/
+    /*----SOLICITUD DE PRESUPUESTO*/
+    .mainSoli{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 70vh;
+        background-color: rgb(220, 214, 214);
+    }
+    
+    .titleSoli{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    }
+    
+    .parrafoSoli{
+        font-size: 2rem;
+    }
+    /*---- FIN SOLICITUD*/
 
     /* FOOTER GENERAL */
     footer{
