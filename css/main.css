@@ -8,7 +8,11 @@
 
 /* HEADER BOOSTRAP: nav-bar */
 header {
-  height: 86px; }
+  height: 86px;
+  width: 100vw; }
+
+.s-navbar {
+  width: 100%; }
 
 .dispo {
   display: none; }
@@ -268,7 +272,7 @@ footer {
 .t-principal {
   grid-area: tppal;
   padding-top: 2rem 0;
-  width: 100%;
+  width: 100vw;
   min-height: calc(100vh - 86px - 80px);
   background-image: url("../img/bg/redes-trabajos.jpg");
   background-repeat: no-repeat;
