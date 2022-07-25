@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+body {
+  min-width: 100vw; }
+
 /* HEADER BOOSTRAP: nav-bar */
 header {
   height: 86px;
@@ -141,7 +144,7 @@ footer {
 
 /* Invitación y botón de contacto */
 .invitacion {
-  padding-bottom: 2rem; }
+  padding: 2rem 0; }
   .invitacion h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;

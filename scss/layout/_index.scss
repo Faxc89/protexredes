@@ -19,7 +19,7 @@
 }
 /* Invitación y botón de contacto */
 .invitacion{
-    padding-bottom: 2rem;
+    padding: 2rem 0;
     h2{
         font-family:$font;
         font-size: $tepresu;
@@ -43,8 +43,7 @@
     padding: 0.8rem 3.2rem;
     text-decoration: none;
     border-radius: 0.5rem;
-    text-shadow: $text-shadow;
-    &:hover{
+    text-shadow: $text-shadow;    &:hover{
         color: #dcdcdc;
     }
 }
