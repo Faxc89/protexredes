@@ -7,6 +7,9 @@
   box-sizing: border-box; }
 
 /* HEADER BOOSTRAP: nav-bar */
+header {
+  height: 86px; }
+
 .dispo {
   display: none; }
 
@@ -82,7 +85,8 @@ footer {
   color: black;
   padding: 1.25rem;
   border-top: #dcdcdc  solid 0.063rem;
-  width: 100%; }
+  width: 100%;
+  height: 50px; }
   footer h4, footer h2 {
     font-size: 0.9rem;
     font-weight: bold;
@@ -100,29 +104,13 @@ footer {
 /*----- FIN SPAN DE SALTO -----*/
 /*----- FIN DE ESTILOS GENERALES -----*/
 /*-----INDEX-----*/
-/* GRID-INDEX MAIN */
-.grid-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr;
-  text-align: center;
-  height: 80vh;
-  grid-template-areas: "ppal" "logo";
-  justify-content: center;
-  justify-items: center;
-  height: 80vh;
-  position: relative;
-  row-gap: 0.5rem;
-  background-color: #ffffff; }
-
 /* principal + infoIndex */
 .principal {
-  grid-area: ppal;
   padding: 1rem 0rem 1.25rem;
   text-align: center;
   align-items: center;
   width: 100%;
-  height: 33rem;
+  min-height: calc(100vh - 86px - 50px);
   background-image: url("../img/bg/bgIndex.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,36 +162,6 @@ footer {
 /* galeria de trabajos  */
 .trabajosGaleria {
   display: none; }
-
-/* logos de clientes */
-.logoCli {
-  grid-area: logo;
-  width: 100%;
-  background-color: #ffffff; }
-  .logoCli h3 {
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: #5D6D7E;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-bottom: #dcdcdc  solid 0.063rem;
-    text-shadow: 0px 0px 2px #969696; }
-  .logoCli ul {
-    width: 100%;
-    list-style: none;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-    .logoCli ul li {
-      margin: 0.31; }
-      .logoCli ul li img {
-        width: 11rem;
-        height: 3rem;
-        margin-top: 0.5rem; }
 
 /*-----FIN GRID-MAIN-INDEX-----*/
 /*-----SERVICIOS-----*/

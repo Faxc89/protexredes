@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 /* HEADER BOOSTRAP: nav-bar */
+header{
+    height: 86px;
+}
 .dispo{
     display: none;
 }
@@ -100,6 +103,7 @@ footer{
     padding: 1.25rem;
     border-top:#dcdcdc  solid 0.063rem;
     width: 100%;
+    height: 50px;
 
     h4, h2{
         font-size: 0.9rem;
