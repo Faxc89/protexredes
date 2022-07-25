@@ -10,7 +10,7 @@
     text-align: center;
     align-items: center; 
     width: 100%;
-    min-height: calc(100vh - 86px - 50px);
+    min-height: calc(100vh - 86px - 80px);
     background-image: url('../img/bg/bgIndex.jpg');
     @include background;
 }
