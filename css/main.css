@@ -184,7 +184,7 @@ footer {
 .s-principal {
   grid-area: sppal;
   padding-top: 2rem;
-  width: 100%;
+  width: 100vw;
   min-height: calc(100vh - 86px - 80px);
   background-image: url("../img/bg/red-services.jpg");
   background-repeat: no-repeat;
