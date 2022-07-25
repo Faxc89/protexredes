@@ -82,9 +82,15 @@ header{
 #nav-list{
     margin-top: 1rem;
 }
+
 #nav-item{
+    background-color: #9696962e;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    padding: 0 0;
+    text-align: center;
     a{
-        padding-left: 1.3rem;
+        padding-left: 1rem;
         font-size: 1.15rem;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;

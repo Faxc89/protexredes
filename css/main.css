@@ -66,23 +66,28 @@ header {
 #nav-list {
   margin-top: 1rem; }
 
-#nav-item a {
-  padding-left: 1.3rem;
-  font-size: 1.15rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  list-style: none;
-  text-decoration: none;
-  color: #3d444b;
-  text-shadow: 0px 0px 2px #969696; }
-
-#nav-item #wpp-boton {
-  display: inline-block;
-  margin-top: 0;
-  margin-left: 1rem;
-  height: 2.3rem;
-  width: 2.3rem; }
+#nav-item {
+  background-color: #9696962e;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  padding: 0 0;
+  text-align: center; }
+  #nav-item a {
+    padding-left: 1rem;
+    font-size: 1.15rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: #3d444b;
+    text-shadow: 0px 0px 2px #969696; }
+  #nav-item #wpp-boton {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 1rem;
+    height: 2.3rem;
+    width: 2.3rem; }
 
 /*----- FIN HEADER -----*/
 /* FOOTER */
@@ -598,19 +603,25 @@ form {
     background-color: #f5f5f5; }
   #nav-list {
     margin-top: 0; }
-  #nav-item a {
-    display: inline-block;
-    padding-right: 1rem;
-    margin: 0.3rem;
-    font-size: 1.3rem; }
-    #nav-item a:hover {
-      transform: scale(1.05);
-      transition-duration: 1s; }
-  #nav-item #wpp-boton {
-    display: inline-block;
-    margin-top: 0.1rem;
-    height: 2.5rem;
-    width: 2.5rem; }
+  #nav-item {
+    background-color: #f5f5f5;
+    margin: none;
+    border-radius: 0;
+    padding: 0;
+    text-align: center; }
+    #nav-item a {
+      display: inline-block;
+      padding-right: 1rem;
+      margin: 0.3rem;
+      font-size: 1.3rem; }
+      #nav-item a:hover {
+        transform: scale(1.05);
+        transition-duration: 1s; }
+    #nav-item #wpp-boton {
+      display: inline-block;
+      margin-top: 0.1rem;
+      height: 2.5rem;
+      width: 2.5rem; }
   /*-----FIN HEADER-----*/
   /* INDEX */
   .principal {
