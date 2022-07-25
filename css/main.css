@@ -212,7 +212,7 @@ footer {
 .tipoRedes {
   grid-area: tipos;
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+  width: 100vw;
   color: #ffffff;
   background-color: #f5f5f5; }
   .tipoRedes h2 {
