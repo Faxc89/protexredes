@@ -1,9 +1,12 @@
 @import "../utilities/variables";
 
 /*-----PRESUPUESTO-----*/
-
+.bodyPresu{
+background-image: linear-gradient(to right, #134E5E,#71B280);
+}
 /* Formulario */ 
 .formu{
+    width: 100%;
     padding: 2rem 6rem 2rem 6rem;
     min-height: calc(100vh - 86px - 80px);
     background-color: transparent;
