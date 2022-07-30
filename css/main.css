@@ -126,7 +126,7 @@ footer {
   align-items: center;
   width: 100%;
   min-height: calc(100vh - 86px - 80px);
-  background-image: url("../img/bg-protex/7.png");
+  background-image: url("../img/bg-protex/7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -194,7 +194,7 @@ footer {
   padding-top: 2rem;
   width: 100vw;
   min-height: calc(100vh - 86px - 80px);
-  background-image: url("../img/bg-protex/24.png");
+  background-image: url("../img/bg-protex/24.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -282,7 +282,7 @@ footer {
   padding-top: 2rem 0;
   width: 100vw;
   min-height: calc(100vh - 86px - 80px);
-  background-image: url("../img/bg-protex/5.png");
+  background-image: url("../img/bg-protex/5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
