@@ -132,6 +132,11 @@ footer {
   background-position: center center;
   background-attachment: fixed; }
 
+.mediosdepago {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold; }
+
 .infoIndex h1 {
   padding-top: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -263,8 +268,8 @@ footer {
   .rt080 ul li, .rt060 ul li, .rt230 ul li {
     padding: 0.5rem; }
     .rt080 ul li img, .rt060 ul li img, .rt230 ul li img {
-      width: 22rem;
-      height: 16.75rem; }
+      width: 27rem;
+      height: 22rem; }
 
 /*-----FIN SERVICIOS-----*/
 /*-----TRABAJOS-----*/
@@ -354,8 +359,8 @@ footer {
   .balcon ul li, .ventana ul li, .escalera ul li {
     padding: 0.5rem; }
     .balcon ul li img, .ventana ul li img, .escalera ul li img {
-      width: 22rem;
-      height: 16.75rem; }
+      width: 26rem;
+      height: 24rem; }
 
 /*-----FIN TRABAJOS-----*/
 /*-----PRESUPUESTO-----*/
@@ -679,7 +684,7 @@ form {
       width: 100%;
       margin: auto;
       list-style: none;
-      padding: 20px;
+      padding: 10px;
       box-sizing: border-box;
       display: flex;
       flex-wrap: wrap;
@@ -687,8 +692,8 @@ form {
       .trabajosGaleria ul li {
         margin: 5px; }
         .trabajosGaleria ul li img {
-          width: 25rem;
-          height: 18.75rem; }
+          width: 27rem;
+          height: 29rem; }
           .trabajosGaleria ul li img:hover {
             border: solid 3px #dcdcdc; }
   /* logos de clientes */
@@ -729,13 +734,13 @@ form {
     font-weight: 550; }
   /* estilos en comun */
   .rt080 h3, .rt060 h3, .rt230 h3 {
-    padding: 1rem;
+    padding: 10px;
     font-size: 1.4rem; }
   .rt080 p, .rt060 p, .rt230 p {
     font-size: 1.5rem; }
   .rt080 ul li img, .rt060 ul li img, .rt230 ul li img {
-    width: 25rem;
-    height: 18.75rem; }
+    width: 26rem;
+    height: 27rem; }
     .rt080 ul li img:hover, .rt060 ul li img:hover, .rt230 ul li img:hover {
       border: solid 3px #dcdcdc; }
   /*-----FIN GRID-MAIN-SERVICIOS-----*/
@@ -761,36 +766,16 @@ form {
     font-size: 1.6rem; }
   /* estilos en comun */
   .balcon h3, .ventana h3, .escalera h3 {
-    padding: 1.2rem;
+    padding: 10px;
     font-size: 1.4rem; }
   .balcon p, .ventana p, .escalera p {
     font-size: 1.5rem; }
   .balcon ul li img, .ventana ul li img, .escalera ul li img {
-    width: 25rem;
-    height: 18.75rem; }
+    width: 26rem;
+    height: 27rem; }
     .balcon ul li img:hover, .ventana ul li img:hover, .escalera ul li img:hover {
       border: solid 3px #dcdcdc; }
   /*-----FIN GRID-MAIN-TRABAJOS-----*/
-  /*  GRID-MAIN-NOSOTROS */
-  .grid-main-nosotros {
-    grid-template-columns: 1 1fr;
-    grid-template-rows: 2 1fr; }
-  .n-principal {
-    padding-top: 3rem;
-    padding-bottom: 1.25rem;
-    height: 38rem; }
-    .n-principal h1 {
-      font-size: 2.3rem;
-      line-height: 2.1rem; }
-    .n-principal p {
-      font-size: 1.5rem;
-      padding: 1rem; }
-    .n-principal .team img {
-      display: inline-block;
-      text-align: center;
-      height: 17rem;
-      width: 22rem; }
-  /*-----FIN MAIN-GRID-NOSOTROS */
   /*     PRESUPUESTO     */
   /* Formulario */
   .formu {
