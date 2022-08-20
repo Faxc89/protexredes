@@ -350,7 +350,7 @@ footer {
   width: 100%;
   margin: auto;
   list-style: none;
-  padding: 1.25rem;
+  padding: 2rem;
   box-sizing: border-box;
   background-color: #f5f5f5;
   display: flex;
@@ -360,7 +360,7 @@ footer {
     padding: 0.5rem; }
     .balcon ul li img, .ventana ul li img, .escalera ul li img {
       width: 24rem;
-      height: 24rem; }
+      height: 22rem; }
 
 /*-----FIN TRABAJOS-----*/
 /*-----PRESUPUESTO-----*/

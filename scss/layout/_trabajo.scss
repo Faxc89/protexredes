@@ -69,10 +69,9 @@
         width: 100%;
         margin: auto;
         list-style: none;
-        padding: 1.25rem;
+        padding: 2rem;
         box-sizing: border-box;
         background-color: $color-bg;
-    
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -80,7 +79,7 @@
             padding: 0.5rem;
             img{
                 width: 24rem;
-                height: 24rem;
+                height: 22rem;
             }
         }
     }
